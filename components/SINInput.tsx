@@ -44,7 +44,6 @@ export default function SINInput() {
 
     useEffect(() => {
         if (sin) {
-            console.log("validating sin")
             debouncedValidate()
         } else {
             setValidSin(null)
